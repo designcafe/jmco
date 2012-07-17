@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Jobseeker Registration">
+		<message>
+			<![CDATA[Registration page for new Jobseekers.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Jobseeker Registration</name>
+		<description>Jobseeker Registration Page.</description>
+	</state>
+</metadata>

@@ -1,0 +1,386 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f36\froman\fcharset238\fprq2 Times New Roman CE;}{\f37\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f39\froman\fcharset161\fprq2 Times New Roman Greek;}{\f40\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f41\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f42\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f43\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f44\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\f46\fswiss\fcharset238\fprq2 Arial CE;}{\f47\fswiss\fcharset204\fprq2 Arial Cyr;}{\f49\fswiss\fcharset161\fprq2 Arial Greek;}{\f50\fswiss\fcharset162\fprq2 Arial Tur;}{\f51\fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f52\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f53\fswiss\fcharset186\fprq2 Arial Baltic;}{\f54\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f56\fmodern\fcharset238\fprq1 Courier New CE;}{\f57\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f59\fmodern\fcharset161\fprq1 Courier New Greek;}{\f60\fmodern\fcharset162\fprq1 Courier New Tur;}{\f61\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f62\fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f63\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f64\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \styrsid931063 Normal;}{\s1\qc \li0\ri0\keepn\nowidctlpar
+\tx1980\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\keepn\nowidctlpar
+\tx1980\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \f1\fs20\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\keepn\widctlpar\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 3;}{\s4\ql \li0\ri0\keepn\nowidctlpar
+\tx1980\aspalpha\aspnum\faauto\outlinelevel3\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 4;}{\s5\ql \li0\ri0\keepn\nowidctlpar
+\tx1980\aspalpha\aspnum\faauto\outlinelevel4\adjustright\rin0\lin0\itap0 \b\f1\fs20\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\qj \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext15 Body Text 2;}{\s16\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext16 footer;}{\*\cs17 \additive \sbasedon10 page number;}{\s18\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 \styrsid16016347 
+Plain Text;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-260909538\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid69428723}{\list\listtemplateid-138102352\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname 
+;}\listid151484627}{\list\listtemplateid118812368\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid367486322}{\list\listtemplateid-1511598938\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 
+\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname 
+;}\listid843085139}{\list\listtemplateid-1413677406\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid896015717}{\list\listtemplateid-1476347340\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 
+\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname 
+;}\listid1462266618}{\list\listtemplateid267680104\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1983339726}}{\*\listoverridetable{\listoverride\listid896015717\listoverridecount0\ls1}{\listoverride\listid69428723\listoverridecount0\ls2}
+{\listoverride\listid367486322\listoverridecount0\ls3}{\listoverride\listid843085139\listoverridecount0\ls4}{\listoverride\listid1462266618\listoverridecount0\ls5}{\listoverride\listid151484627\listoverridecount0\ls6}{\listoverride\listid1983339726
+\listoverridecount0\ls7}}{\*\rsidtbl \rsid931063\rsid1050057\rsid2633833\rsid6106378\rsid9657738\rsid15027368\rsid16016347\rsid16257126}{\*\generator Microsoft Word 11.0.5604;}{\info{\title Roy Resume}{\author Roy Lantieri}{\operator Deborah}
+{\creatim\yr2011\mo11\dy16\hr13\min14}{\revtim\yr2011\mo11\dy16\hr13\min14}{\printim\yr2006\mo10\dy30\hr20\min32}{\version2}{\edmins1}{\nofpages1}{\nofwords1938}{\nofchars11053}{\*\company Student}{\nofcharsws12966}{\vern24689}}\margl1440\margr1440 
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow0\dgvshow0
+\jexpand\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\nojkernpunct\rsidroot16257126 \fet0{\*\ftnsep \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+{\insrsid15027368 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 \chftnsepc 
+\par }}\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\footer \pard\plain \s16\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxc\posy0\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+{\field{\*\fldinst {\cs17\insrsid15027368 PAGE  }}{\fldrslt {\cs17\lang1024\langfe1024\noproof\insrsid16016347 2}}}{\cs17\insrsid15027368 
+\par }\pard \s16\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\insrsid15027368 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s18\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2633833 
+\f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid16016347\charrsid2633833 
+\par }\pard\plain \qc \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\ul\cgrid0\insrsid15027368 Roy C. Lantieri
+\par }\pard\plain \s1\qc \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 517 Denslow Street
+\par }\pard\plain \qc \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\cgrid0\insrsid15027368 Windsor Locks, Connecticut, 06096
+\par Home Phone: 860-292-1014
+\par E-Mail: roylant@yahoo.com
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 QUALIFICATIONS:}{\f1\cgrid0\insrsid15027368 \tab Proven ability to perform well independently and as a part of a team, 
+\par \tab to provide leadership and to interact effectiv}{\f1\cgrid0\insrsid9657738 ely with all levels}{\f1\cgrid0\insrsid15027368  throughout 
+\par \tab the organization.
+\par 
+\par \tab Highly skilled in the management and use of technology to resolve 
+\par \tab business problems.
+\par 
+\par \tab Dedicated, thorough, enthusiastic}{\f1\cgrid0\insrsid9657738  worker who thrives on achieving excellence}{\f1\cgrid0\insrsid15027368 
+\par }{\f1\cgrid0\insrsid9657738                                    in a team oriented environment.
+\par }{\f1\cgrid0\insrsid15027368 
+\par \tab Extensive technical background with major concentrations in:
+\par \tab database architecture, administration, design, development, implementation,
+\par                                     modeling, data management/transformation; systems architecture, 
+\par                                     integration, connectivity and administr}{\f1\cgrid0\insrsid16257126 ation}{\f1\cgrid0\insrsid15027368 .
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 EDUCATION:}{\f1\cgrid0\insrsid15027368 \tab Bachelor of Science (Computer Science)
+\par \tab Central Connecticut State University
+\par \tab New Britain, Connecticut
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 HARDWARE:}{\f1\cgrid0\insrsid15027368 \tab PC In}{\f1\cgrid0\insrsid16257126 tel Platforms, }{\f1\cgrid0\insrsid15027368 Sun Sparc, Sequent, IBM Mainframes, 
+\par \tab IBM AS/400, Data General Aviion, IBM AIX, Digital Alpha
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 ENVIRONMENTS:}{\f1\cgrid0\insrsid15027368 \tab MS-Windows 2000/XP/7-Server 2000/2003/2008, MS-DOS, Unix(Aix), OS/2, 
+\par \tab Novell/Netware, OS/400, MVS/ESA, VM/CMS, TSO, CICS
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 SOFTWARE:}{\f1\cgrid0\insrsid15027368 \tab Microsoft Sql Server}{\f1\cgrid0\insrsid16257126  (2008 R2/2005/2000)}{\f1\cgrid0\insrsid15027368 , Oracle}{\f1\cgrid0\insrsid16257126  10g}{\f1\cgrid0\insrsid9657738 
+, Sybase, DB2, IDMS/R,   
+\par                                    }{\f1\cgrid0\insrsid15027368 Erwin, Stored Procedures/Triggers, Replication, }{\f1\cgrid0\insrsid9657738 Clustering, Transact-SQL}{\f1\cgrid0\insrsid15027368 , 
+\par                                    }{\f1\cgrid0\insrsid9657738 ETL \endash  SSIS/DTS, SQL Reporting Services, DBArtisan, Apex SQL Bundle, 
+\par                                    Oracle SQL Developer, }{\f1\cgrid0\insrsid15027368 Rightfax, BusinessObjects, Microsoft Internet Information }{\f1\cgrid0\insrsid9657738 
+\par                                    }{\f1\cgrid0\insrsid15027368 Server, Visual Studio,}{\f1\cgrid0\insrsid9657738  }{\f1\cgrid0\insrsid15027368 ADO}{\f1\cgrid0\insrsid9657738 , }{\f1\cgrid0\insrsid15027368 Javascript}{\f1\cgrid0\insrsid9657738 
+/VBScript, Powershell, Windows Script, 
+\par                                    }{\f1\cgrid0\insrsid15027368 Visual SourceSafe, Terminal Server, Remote Access Services,}{\f1\cgrid0\insrsid9657738  Microsoft Office, 
+\par                                    Microsoft SCOM}{\f1\cgrid0\insrsid15027368 , }{\f1\cgrid0\insrsid9657738 Microsoft Active Directory Services, TCP/IP, RAID}{\f1\cgrid0\insrsid15027368 
+\par 
+\par }{\b\f1\cgrid0\insrsid15027368 EXPERIENCE:
+\par }{\f1\cgrid0\insrsid15027368 
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \f1\fs20\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid15027368 St. Francis Hospital and Medical Center,}{
+\insrsid15027368  Hartford, CT                                  June, 2007 \endash  Present
+\par }\pard\plain \s3\ql \li0\ri0\keepn\widctlpar\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 Lead Database Administrator
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f1\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 Provide all levels of database support, administration, management and monitoring for the hospital. 
+\par Tasks include:
+\par 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\tx1980\aspalpha\aspnum\faauto\ls7\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Administration, managem}{\f1\cgrid0\insrsid9657738 ent and support for more than 60}{\f1\cgrid0\insrsid15027368  SQL database servers 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database backup/restore, maintenance, monitoring, tuning and debugging
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database }{\f1\cgrid0\insrsid9657738 version }{\f1\cgrid0\insrsid15027368 upgrades and licensing management
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Disaster/Recovery planning, procedures and implementation
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid9657738 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\f1\cgrid0\insrsid9657738 Database arcitecture, design and schema management
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid16257126 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\f1\cgrid0\insrsid16257126 ETL - }{\f1\cgrid0\insrsid15027368 Data transformation, conversion, export/import across multiple database platforms
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database security and procedures
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}SQL assistance and trai}{\f1\cgrid0\insrsid16257126 ning to clinical staff and user departments}{\f1\cgrid0\insrsid15027368 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Technical leadership/training for the staff
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Implementation, management and support for Enterprise Rightfax and BusinessObjects
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par (Windows NT 2000/2003/2008; Sql Server 2000/2005/2008; SQL Reporting Services; SSIS; BusinessObjects; Erwin; Aqu}{\f1\cgrid0\insrsid16257126 adatastudio; Apex SQL Bundle}{\f1\cgrid0\insrsid15027368 ; Oracle 10g; Informix; Rightfax;}{
+\f1\cgrid0\insrsid16257126  T-SQL; DBArtisan; Erwin; }{\f1\cgrid0\insrsid1050057 SCOM}{\f1\cgrid0\insrsid15027368 ;}{\f1\cgrid0\insrsid1050057  Active Directory Services; Powershell}{\f1\cgrid0\insrsid15027368  )
+\par 
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \f1\fs20\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid15027368 Financial Partners, Inc.,}{\insrsid15027368 
+ Agawam, MA                                                        November, 2004 \endash  June, 2007
+\par }\pard\plain \s3\ql \li0\ri0\keepn\widctlpar\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 Database Administration Technician/Manager/Architect
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f1\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 Provide all levels of database support/administration/development for Farm Associations. 
+\par Tasks include:
+\par 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\tx1980\aspalpha\aspnum\faauto\ls7\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Production support for more than 200 servers with multiple instances
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database backup/restore, maintenance, monitoring, tuning and debugging
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Source control change control and quality assurance management
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Development of automated database refresh processes for dynamic lab environments
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database modeling, logical/physical design
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Disaster/Recovery planning, procedures and implementation
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Data transformation, conversion, export/import across multiple database platforms
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Implementation/Support of Loan Accounting, and General Ledger Database
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Active Directory Reporting
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database security and procedures
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Management of database staff of six
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Technical leadership/training for the staff
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Stored procedure/T-SQL Development
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Schema building/support for data warehouse reporting application
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Project Management
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par (Windows NT 2000/2003; Sql Server 2000/2005; Business Objects; Erwin; Red-Gate Sql Bundle; Clearcase; Oracle 10g; Sybase; SQL-DMO; WSH Script; Stored Procedures; T-SQL; DBArtisan;
+\par DTS; Erwin; RMAN; Microsoft OLAP; MOM; ADO;)
+\par \tab 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 
+\par Pitney Bowes, }{\f1\ul\cgrid0\insrsid15027368 Shelton, CT                                                                             June, 2004 \endash  October, 2004}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Sql Server DBA/Developer Consultant
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 \tab 
+\par Provide all levels database administration support for web based Deliverability Shipping System. Tasks included:
+\par 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\tx1980\aspalpha\aspnum\faauto\ls2\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Database modeling , logical/physical design and implementation
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Stored procedure/T-SQL development 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database backup/restore, maintenance, performance monitoring and debugging 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Source control and quality assurance management 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Data transformation, conversion and loading 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Assistance to development team as needed
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par (Windows NT 2000/2003; Ms Sql Server 2000; DTS/BCP; Visual Studio; MS IIS; Transact-SQL; Erwin; 
+\par  DBArtisan; Clearcase Source Control; Red-Gate SQL Bundle; Windows Script Host/Javascript)
+\par 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 
+\par WebMD/National Physicians DataSource, }{\f1\ul\cgrid0\insrsid15027368 Avon, CT}{\b\f1\ul\cgrid0\insrsid15027368                                          }{\f1\ul\cgrid0\insrsid15027368 June, 2002 \endash  April, 2004
+\par }{\i\f1\cgrid0\insrsid15027368 Database Administration Architect/Technician/Manager/Project Leader
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\insrsid15027368 Responsibilities included any/all tasks related to the management, organization, support, development, education and direction of  technology
+ needs for the company. Tasks included:}{\i\f1\cgrid0\insrsid15027368 
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\widctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls1\adjustright\rin0\lin720\itap0 {\f1\insrsid15027368 Hardware, software management
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Project management
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Application design and development
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}All database administration procedures and functions
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Relational database design/implementation
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Data modeling, replication, data import/export transformation 
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Web site development/management
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Networking, licensing, team building and education
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Major applications delivered include Pharmacy data repository and web application, design and migration of Physician Database to new platform.
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\insrsid15027368 
+\par (Windows NT 4.0/2000/2003, MS Sql Server 6.5/7.0/2000, OLAP, DTS/BCP, SQL, Erwin, Transact-SQL,    
+\par  ASP/Asp.Net, MS IIS, Javascript/VBScript, HTML, XHTML DHTML, CSS, Dreamweaver, Access, 
+\par  Windows Script Host)  
+\par }{\f1\insrsid931063 
+\par }{\b\f1\insrsid931063\charrsid931063 
+\par }\pard\plain \s4\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel3\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\insrsid15027368 Mass Mutual Insurance Company, }{
+\b0\ul\insrsid15027368 Springfield, MA}{\ul\insrsid15027368                             }{\b0\ul\insrsid15027368 October, 2001 \endash  December, 2001}{\ul\insrsid15027368                             
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Database Performance Consultant}{
+\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 
+\par Responsible for performance tuning and implementations for large scale insurance processing applications. 
+\par 
+\par (Sybase, SQL, Transact-SQL) 
+\par 
+\par 
+\par }\pard\plain \s5\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel4\adjustright\rin0\lin0\itap0 \b\f1\fs20\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 USI-RX/York Pharmacy Benefits, }{\b0\insrsid15027368 
+East Haven, CT}{\insrsid15027368                              }{\b0\insrsid15027368 February, 1999 \endash  September, 2001}{\insrsid15027368 
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f1\cgrid0\insrsid15027368 Database/Systems/Web Technician/Architect
+\par 
+\par }{\f1\cgrid0\insrsid15027368 Reponsible for database web and system implementation support for all aspects of the organization.
+\par Tasks included:
+\par 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Hardware and software evaluation, recommendations, installation and configuration
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Migration/transformation of current data to SQL Server database
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Installation, configuration, management of web servers and database environments
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Development of web based applications (CLUES and Care Management)
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Network connectivity and all other activities related to project implementations.
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls1\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 Database 
+modeling, logical/physical design, administration 
+\par {\listtext\pard\plain\s3 \f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \s3\ql \fi-360\li720\ri0\keepn\widctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls3\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i0\insrsid15027368 Implementation/development of web based pharmaceutical benefit and }{\i0\cgrid0\insrsid15027368 claim review (CLUES) system, and Care Management system
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li720\ri0\widctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin720\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid15027368 Project Management for all applications
+\par {\listtext\pard\plain\f3\fs20\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Support and training for other team members
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 \tab 
+\par (Windows NT 4.0/2000, MS Sql Server 7.0/2000, SQL, Transact-SQL, Dreamweaver, Active Server Pages, DTS, MS Internet Information Server, HTML, DHTML, Javascript, CSS, Erwin, Windows Script Host, Web Site and Development Software, Infomaker, Sybase
+, Netware, Lotus Notes, DHCP, DNS)
+\par }{\f1\cgrid0\insrsid931063 \page }{\b\f1\ul\cgrid0\insrsid15027368 Discover RE, }{\f1\ul\cgrid0\insrsid15027368 Farmington, CT                                                                November, 1997 \endash  January, 1999}{
+\f1\cgrid0\insrsid15027368\charrsid931063 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Systems and Database Administrator Consultant
+
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f1\cgrid0\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 Responsible for: 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Configuration and implementation of NT operating system;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Hardware configuration and installation; Network management
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Software evaluation, and support; 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Enterprise database design, implementation and applications;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Data Transformation, export/import
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Desktop connectivity and integration.
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par (Windows NT 4.0, SQL Server 6.5/7.0, Erwin, SQL, Transact-SQL, Microsoft Visual Studio, IIS,  DTS,  
+\par  Terminal Server, Proxy Server)
+\par   }{\f1\ul\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 
+\par Viisage Technologies, }{\f1\ul\cgrid0\insrsid15027368 Littleton, MA                                                    October, 1996 \endash  September, 1977
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Systems Architect/Administrator Consultant
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+Implement and provide all levels of support for system that manages/produces images for Facial Recognition and Digital Cards (Licenses, Welfare Benefits, etc.). Task include:
+\par 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 
+Hardware evaluation/installation/management;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Project management and coordination
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Operating system installation, configuration, maintenance;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Network infrastructure implementation; 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database system installation, configuration and maintenance;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Application database design and implementation across multiple database platforms;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Data transformation, conversion, export/import. replication
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Fault tolerance architecture and implementation across multiple sites;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Performance tuning and troubleshooting; backup strategies;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Evaluate and recommend new technology techniques and tools; 
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Database migration from Unix to Windows NT platform;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Internet and Web Server setup, connectivity and tools;
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Ongoing general support for the organization in all areas.
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 
+\par (Windows NT 4.0, Sybase 11, Microsoft SQL Server 6.5, SQL, Transact-SQL, Erwin, Oracle 8.0, 
+\par  Windows 95, TCP/IP, Internet (Firewalls,  NT Routers, DHCP, DNS, Web Servers, Tools and Support))}{\f1\ul\cgrid0\insrsid15027368 
+\par }{\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 
+\par Sybase Inc., }{\f1\ul\cgrid0\insrsid15027368 Burlington, MA                                                                  January, 1996 - September, 1996
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 
+Systems/Database Architect/Administrator Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cgrid0\insrsid15027368 On assignment at Northeast Utilities in Newington, Conn.,
+\par Responsible for:
+\par {\listtext\pard\plain\f3\fs20\cgrid0\insrsid15027368 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\aspalpha\aspnum\faauto\ls6\adjustright\rin0\lin720\itap0 {\f1\cgrid0\insrsid15027368 Design, configuration, 
+installation, connectivity, administration and management of systems and database environment on various platforms.
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\insrsid15027368 
+\par }{\f1\cgrid0\insrsid15027368 (Sybase 10, Replication Server, Windows-NT, SQL, Transact-SQL, Sun Solaris, NT/SQL Server, Web 
+\par  Server Setup/Development)
+\par }{\f1\cgrid0\insrsid931063 \page  }{\b\f1\cgrid0\insrsid15027368 PREVIOUS POSITIONS (Details available on request)}{\f1\cgrid0\insrsid15027368\charrsid931063 
+\par }{\b\f1\cgrid0\insrsid931063 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid931063 {\b\f1\ul\cgrid0\insrsid931063 Dunn & Bradstreet Corporate Services, }{\f1\ul\cgrid0\insrsid931063 
+Wilton, CT                              August, 1995 \endash  December, 1995}{\f1\cgrid0\insrsid931063\charrsid931063 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid931063 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid931063 
+Systems/Database Administrator Consultant}{\cgrid0\insrsid15027368\charrsid931063 
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\ul\cgrid0\insrsid15027368 
+\par Shawmut Bank, }{\f1\ul\cgrid0\insrsid15027368 Hartford, CT                                                                      December, 1994 - March, 1995}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Systems and Database Administrator Consultant
+
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 Sequent Computer Systems, }{\f1\ul\cgrid0\insrsid15027368 Burlington, MA                                         January, 1994 - November, 1994}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Systems and Database Administrator Architect
+
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 Boston City Hospital, }{\f1\ul\cgrid0\insrsid15027368 Boston, MA                                                            August, 1993 - December, 1993}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Client Server Database/Systems Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Harvard University Management, }{\f1\ul\cgrid0\insrsid15027368 
+Boston, MA                                                       July, 1993 - July, 1993}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Database Administration Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 J. P. Morgan (Wall Street), }{\f1\ul\cgrid0\insrsid15027368 
+New York, NY                                                   December, 1992 - June, 1993}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Systems/Database Administration Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 CIGNA Insurance Company,}{\f1\ul\cgrid0\insrsid15027368 
+ Bloomfield, CT                                          October, 1992 - December, 1992}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Client Server Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Preferred Health Care,}{\f1\ul\cgrid0\insrsid15027368  Wilton, CT                                                     
+          June, 1992 - September, 1992}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Client Server Database Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Readers Digest Association,}{\f1\ul\cgrid0\insrsid15027368 
+ Pleasantville, NY                                               January, 1991 - May, 1992}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Desktop Publishing Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 General Electric Capital,}{\f1\ul\cgrid0\insrsid15027368 
+ Stamford, CT                                                         May, 1989 - December, 1990}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 
+Systems and Database Administration/Developer Consultant
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 Security Pacific Bank,}{\f1\ul\cgrid0\insrsid15027368  New York, NY                                                             February, 1989 - April, 1990}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Application Developer Consultant
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 General Electric Plastics,}{\f1\ul\cgrid0\insrsid15027368  Pittsfield, MA                                                           May, 1988 - January, 1989}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Project Leader
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\cgrid0\insrsid15027368 
+\par }{\b\f1\ul\cgrid0\insrsid15027368 Cigna Insurance Company,}{\f1\ul\cgrid0\insrsid15027368  Bloomfield, CT                                                 December, 1987 - April, 1988}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Application Developer Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Aetna Life and Casualty,}{\f1\ul\cgrid0\insrsid15027368 
+ Hartford, CT                                               September, 1986 - November, 1987}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cgrid0\insrsid15027368 Database Administration/Developer Consultant
+
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Connecticut National Bank,}{\f1\ul\cgrid0\insrsid15027368 
+ Hartford, CT                                                   January, 1986 \endash  August, 1986}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\cgrid0\insrsid15027368 Application Developer Consultant
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Database Management, Inc.,}{\f1\ul\cgrid0\insrsid15027368  Manchester, CT                                            June, 1985 
+\endash  December, 1985}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\cgrid0\insrsid15027368 Education Consultant}{\cgrid0\insrsid15027368 
+
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 Aetna Life and Casualty,}{\f1\ul\cgrid0\insrsid15027368 
+ Hartford, CT                                                         December, 1977 \endash  May, 1985}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\cgrid0\insrsid15027368 Software and Database Specialist}{
+\cgrid0\insrsid15027368 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }\pard \ql \li0\ri0\nowidctlpar\tx1980\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\b\f1\ul\cgrid0\insrsid15027368 State of Conn. \endash  Social Services,}{\f1\ul\cgrid0\insrsid15027368  H
+artford, CT                                September, 1975 \endash  November, 1977}{\b\f1\ul\cgrid0\insrsid15027368 
+\par }\pard\plain \s3\ql \li0\ri0\keepn\nowidctlpar\tx1980\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\cgrid0\insrsid15027368 Programmer}{\cgrid0\insrsid15027368 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15027368 
+\par }}

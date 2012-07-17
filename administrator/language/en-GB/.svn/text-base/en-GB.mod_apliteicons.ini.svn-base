@@ -1,0 +1,87 @@
+APLITEICONS FOR JOOMLA! 1.5 BY JOOMLAPRAISE.COM=APLiteIcons for Joomla! 1.5 by <a href="http://www.joomlapraise.com" target="_blank">JoomlaPraise.com</a>, a <a href="http://www.joomlapraise.com/joomla-templates/" target="_blank">Joomla Templates</a> & <a href="http://www.joomlapraise.com/joomla-extensions/" target="_blank">Joomla Extensions</a> Developer
+
+HOME ACCESS=Home Access
+YOUR PROFILE ACCESS=Your Profile Access
+ADMIN PARAMS ACCESS=Admin Params Access
+CHECKIN ACCESS=Checkin Access
+SYSINFO ACCESS=SysInfo Access
+SET START ACCESS=Set Start Access
+FILE EXPLORER ACCESS=File Explorer Access
+NEW ARTICLE ACCESS=New Article Access
+LEGACY ACCESS=Legacy Access
+PREVIEW ACCESS=Preview Access
+POSITIONS ACCESS=Positions Access
+DEBUG ACCESS=Debug Access
+MESSAGES ACCESS=Messages Access
+SESSION COUNT ACCESS=Session Count Access
+LOGOUT ACCESS=Logout Access
+FULL SCREEN ACCESS=Full Screen Access
+VERSION ACCESS=Version Access
+
+SECTION ACCESS=Section Access
+CATEGORY ACCESS=Category Access
+ARTICLE ACCESS=Article Access
+MENU ACCESS=Menu Access
+USER ACCESS=User Access
+
+SECTIONS ACCESS=Section Access
+CATEGORIES ACCESS=Category Access
+ARTICLES ACCESS=Article Access
+FRONT PAGE ACCESS=Front Page Access
+MENUS ACCESS=Menus Access
+USERS ACCESS=Users Access
+FILES ACCESS=Files Access
+LANGUAGES ACCESS=Languages Access
+MEDIA ACCESS=Media Access
+
+SECTIONS ACCESS=Sections Access
+NEW SECTION ACCESS=New Section Access
+CATEGORIES ACCESS=Categories Access
+NEW CATEGORY ACCESS=New Category Access
+ARTICLE TRASH ACCESS=Article Trash Access
+
+COMPONENTS ACCESS=Components Access
+SITE MODULES ACCESS=Site Modules Access
+NEW MODULE ACCESS=New Module Access
+ADMIN MODULES ACCESS=Admin Modules Access
+NEW ADMIN MODULE ACCESS=New Admin Module Access
+PUBLISHED MODULES ACCESS=Published Modules Access
+PLUGINS ACCESS=Plugins Access
+TEMPLATES ACCESS=Templates Access
+ADMIN TEMPLATES ACCESS=Admin Templates Access
+INSTALLER ACCESS=Installer Access
+
+LINK1 NAME=Link #1 Name
+LINK1 URL=Link #1 URL
+LINK1 ACCESS=Link #1 Access
+LINK2 NAME=Link #2 Name
+LINK2 URL=Link #2 URL
+LINK2 ACCESS=Link #2 Access
+LINK3 NAME=Link #3 Name
+LINK3 URL=Link #3 URL
+LINK3 ACCESS=Link #3 Access
+LINK4 NAME=Link #4 Name
+LINK4 URL=Link #4 URL
+LINK4 ACCESS=Link #4 Access
+LINK5 NAME=Link #5 Name
+LINK5 URL=Link #5 URL
+LINK5 ACCESS=Link #5 Access
+LINK6 NAME=Link #6 Name
+LINK6 URL=Link #6 URL
+LINK6 ACCESS=Link #6 Access
+LINK7 NAME=Link #7 Name
+LINK7 URL=Link #7 URL
+LINK7 ACCESS=Link #7 Access
+LINK8 NAME=Link #8 Name
+LINK8 URL=Link #8 URL
+LINK8 ACCESS=Link #8 Access
+LINK9 NAME=Link #9 Name
+LINK9 URL=Link #9 URL
+LINK9 ACCESS=Link #9 Access
+LINK10 NAME=Link #10 Name
+LINK10 URL=Link #10 URL
+LINK10 ACCESS=Link #10 Access
+
+MODULES ACCESS=Modules Access
+PARAMADMINACCESSLEVEL=Set this to the access level of the lowest user you want to see this icon.
+PARAMLINKURL=Set this to the a user defined URL you would like to show up as an generic icon.

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JoomBah Jobs Category</name>
+	<creationDate>15 October 2010</creationDate>
+	<author>Faisel</author>
+	<copyright>Copyright (C) 2010 JoomBah.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joombah.com</authorEmail>
+	<authorUrl>www.joombah.com</authorUrl>
+	<version>1.0.1</version>
+	<description>This module categorizes the JoomBah Jobs based on Job Category, Location, Industry and Position.</description>
+	
+	<files>
+		<filename module="mod_jbjobscategory">mod_jbjobscategory.php</filename>
+		<filename>css/style.css</filename>
+		<filename>css/index.html</filename>
+		<filename>index.html</filename>
+	    <filename>helper.php</filename>	
+	    <filename>tmpl/default.php</filename>
+	    <filename>tmpl/index.html</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jbjobscategory.ini</language>
+	</languages>
+
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer_a" type="spacer" default="------------ View Column -------------" label="------------View Column -------------" description="" />
+		<param name="total_column" type="text" default="1" size="5" label="No. of columns" description="Number of columns to be displayed"></param>
+		<param name="total_row" type="text" default="1" size="5" label="No. of items per column" description="Number of items per column to be displayed"></param>
+		
+		<param name="view_by" type="radio" default="1" label="View by" description="Choose your desired view">
+			<option value="1">Categories</option>	
+			<option value="2">Location</option>
+			<option value="3">Position</option>
+			<option value="4">Industry</option>
+		</param>
+		
+		<param name="show_count" type="radio" default="1" label="Show Count" description="Displays number of jobs in each categories">
+			<option value="1">Yes</option>	
+			<option value="0">No</option>
+		</param>
+		
+		<param name="show_empty_count" type="radio" default="1" label="Show Empty Count?" description="Show/Hide empty jobs in each categories">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

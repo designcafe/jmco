@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Simple Search Page">
+		<message>
+			<![CDATA[Simple search page for searching jobs.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Simple Search Page</name>
+		<description>Simple search page for searching jobs.</description>
+	</state>
+</metadata>

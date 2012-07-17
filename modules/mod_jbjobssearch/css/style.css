@@ -1,0 +1,25 @@
+.jbj_formfloat {
+	float:left;
+	margin-right:10px;}
+.jbj_fontsmall {
+	font-size:10px;}
+.jbj_fontbig {
+	font-size:120%;
+	line-height:30px;}
+.jbj_inputtxt {
+	border:1px solid #ccc;
+	height:25px;
+		width:100%;
+
+	font-size:150%;
+	padding:0 5px;}
+.jbj_inputtxt:hover,
+.jbj_inputtxt:focus {
+	border:1px solid #666;}
+.jbj_dropdown {
+	border:1px solid #ccc;
+	color:#666;
+	padding:5px;
+	margin:2px 0;
+
+	font-size:11px;}

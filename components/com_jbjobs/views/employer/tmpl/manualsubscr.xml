@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Employer Manual Subscription" hidden="true">
+		<message>
+			<![CDATA[One stop for Jobseekers to browse his or her section of the site.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Employer Manual Subscription</name>
+		<description>One stop for Jobseekers to browse his or her section of the site.</description>
+	</state>
+</metadata>

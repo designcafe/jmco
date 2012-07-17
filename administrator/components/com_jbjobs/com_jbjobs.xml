@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>JBJobs</name>
+	<creationDate>03 December 2010</creationDate>
+	<author>JoomBah Team</author>
+	<authorEmail>support@joombah.com</authorEmail>
+	<authorUrl>http://www.joombah.com</authorUrl>
+	<copyright>JoomBah.com(C)2010, All rights reserved.</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<version>1.1 Stable</version>
+	<description>
+	    <![CDATA[
+		<h2>Thank you for installing JoomBah Jobs</h2>
+		<p>What's new in this stable version 1.1?</p>
+	  	<ul>
+			<li>Employers can register based on memberships</li>
+			<li>Employers pay posting for Featured Jobs</li>
+			<li>Employers pay for viewing Candidates's Resumes</li>
+			<li>Jobseeker can add/edit Cover Letters</li>
+			<li>Employers can see more info about their plan subscriptions</li>
+		</ul>
+		 <p>Please visit <a href="http://www.joombah.com/documentation/19-change-log?catid=12:bugfixes-a-changelog" target="_blank">Release Notes</a> to read the complete details</p>
+	    ]]>
+	</description>
+		
+	<installfile>install.jbjobs.php</installfile>
+	  
+	<install>
+		<sql><file charset="utf8" driver="mysql">install.jbjobs.sql</file></sql>
+	</install>
+	
+	<uninstall>
+		<sql><file charset="utf8" driver="mysql">uninstall.jbjobs.sql</file></sql>
+	</uninstall>
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jbjobs.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		
+		<filename>controllers/index.html</filename>
+		<filename>controllers/feedcreator.class.php</filename>
+		<filename>controllers/jbjobs.php</filename>
+		<filename>controllers/jbmessaging.php</filename>
+		<filename>controllers/paypal.class.php</filename>
+		
+		<filename>models/index.html</filename>
+		<filename>models/jbjobs.php</filename>
+		<filename>models/jbmessaging.php</filename>
+		
+		<filename>views/index.html</filename>
+		<filename>views/employer/index.html</filename>
+		<filename>views/employer/view.html.php</filename>
+		<folder>views/employer/tmpl</folder>
+		
+		<filename>views/guest/index.html</filename>
+		<filename>views/guest/view.html.php</filename>
+		<folder>views/guest/tmpl</folder>
+		
+		<filename>views/jobseeker/index.html</filename>
+		<filename>views/jobseeker/view.html.php</filename>
+		<folder>views/jobseeker/tmpl</folder>
+		
+		<filename>views/messaging/index.html</filename>
+		<filename>views/messaging/view.html.php</filename>
+		<filename>views/messaging/metadata.xml</filename>
+		<filename>views/messaging/tmpl/index.html</filename>
+		<filename>views/messaging/tmpl/message.php</filename>
+		<filename>views/messaging/tmpl/messages.php</filename>
+		<filename>views/messaging/tmpl/sentmessages.php</filename>
+		
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	
+	<languages folder="site/language/en-GB">
+			<language tag="en-GB">en-GB.com_jbjobs.ini</language>
+	  </languages>
+		
+	<administration>
+		<menu link="option=com_jbjobs" img="components/com_jbjobs/images/icons/jb_m.png">JoomBah Jobs</menu>
+		 <submenu>
+		      <!-- Note that all '&' must be escaped to &amp; for the file to be valid XML and be parsed by the installer -->
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=dashboard" img="components/com_jbjobs/images/icons/dashboard_m.png">Dashboard</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=joblist" img="components/com_jbjobs/images/icons/joblist_m.png">Jobs</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showemployer" img="components/com_jbjobs/images/icons/employer_m.png">Employers</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showjobseeker" img="components/com_jbjobs/images/icons/jobseeker_m.png">Jobseekers</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showsubscr" img="components/com_jbjobs/images/icons/membership_m.png">Subscription</menu>
+		      <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showbilling" img="components/com_jbjobs/images/icons/bill_history_m.png">Credits</menu>
+		      <menu link="option=com_jbjobs&amp;view=adminconfig&amp;layout=showconfig" img="components/com_jbjobs/images/icons/config_m.png">Configuration</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showcustomuser" img="components/com_jbjobs/images/icons/custom_user_m.png">Custom User Fields</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=showcustomjob" img="components/com_jbjobs/images/icons/custom_job_m.png">Custom Job Fields</menu>
+			  <menu link="option=com_jbjobs&amp;view=adminjob&amp;layout=about" img="components/com_jbjobs/images/icons/about_m.png">About</menu>
+			</submenu>
+	<!-- Administration Main File Copy Section -->
+	
+	<!-- Note the folder attribute: This attribute describes the folder
+	to copy FROM in the package to install therefore files copied
+	in this section are copied from /admin/ in the package -->
+	<files folder="admin">
+	<!-- Site Main File Copy Section -->
+		<filename>index.html</filename>
+		<filename>config.xml</filename>
+		<filename>controller.php</filename>
+		<filename>jbjobs.php</filename>
+		<filename>toolbar.jbjobs.html.php</filename>
+		<filename>toolbar.jbjobs.php</filename>
+		<filename>install.jbjobs.sql</filename>
+		<filename>uninstall.jbjobs.sql</filename>
+		
+		<filename>controllers/index.html</filename>
+		<filename>controllers/jbjobs.php</filename>
+		
+		<filename>models/index.html</filename>
+		<filename>models/jbjobs.php</filename>
+		
+		<filename>tables/index.html</filename>
+		<filename>tables/billing.php</filename>
+		<filename>tables/comptype.php</filename>
+		<filename>tables/config.php</filename>
+		<filename>tables/country.php</filename>
+		<filename>tables/coverletter.php</filename>
+		<filename>tables/custom.php</filename>
+		<filename>tables/customjobs.php</filename>
+		<filename>tables/degreelevel.php</filename>
+		<filename>tables/employer.php</filename>
+		<filename>tables/experience.php</filename>
+		<filename>tables/industry.php</filename>
+		<filename>tables/job.php</filename>
+		<filename>tables/jobcateg.php</filename>
+		<filename>tables/jobexp.php</filename>
+		<filename>tables/jobseeker.php</filename>
+		<filename>tables/jobspec.php</filename>
+		<filename>tables/jobtype.php</filename>
+		<filename>tables/major.php</filename>
+		<filename>tables/messaging.php</filename>
+		<filename>tables/payment.php</filename>
+		<filename>tables/plan.php</filename>
+		<filename>tables/plansubscr.php</filename>
+		<filename>tables/postype.php</filename>
+		<filename>tables/resume.php</filename>
+		<filename>tables/salutation.php</filename>
+		<filename>tables/savejob.php</filename>
+		<filename>tables/transaction.php</filename>
+		<filename>tables/typesalary.php</filename>
+		<filename>tables/university.php</filename>
+		
+		<filename>views/index.html</filename>
+		<filename>views/joombahcr.php</filename>
+		
+		<filename>views/adminconfig/index.html</filename>
+		<filename>views/adminconfig/view.html.php</filename>
+		
+		<filename>views/adminconfig/tmpl/index.html</filename>
+		<filename>views/adminconfig/tmpl/config.php</filename>
+		<filename>views/adminconfig/tmpl/editcomptype.php</filename>
+		<filename>views/adminconfig/tmpl/editcountry.php</filename>
+		<filename>views/adminconfig/tmpl/editdeglevel.php</filename>
+		<filename>views/adminconfig/tmpl/editindcomp.php</filename>
+		<filename>views/adminconfig/tmpl/editjobcateg.php</filename>
+		<filename>views/adminconfig/tmpl/editjobexp.php</filename>
+		<filename>views/adminconfig/tmpl/editjobspec.php</filename>
+		<filename>views/adminconfig/tmpl/editmajor.php</filename>
+		<filename>views/adminconfig/tmpl/editplan.php</filename>
+		<filename>views/adminconfig/tmpl/editpostype.php</filename>
+		<filename>views/adminconfig/tmpl/editsaltype.php</filename>
+		<filename>views/adminconfig/tmpl/editsalutation.php</filename>
+		<filename>views/adminconfig/tmpl/edittext.php</filename>
+		<filename>views/adminconfig/tmpl/edituniversity.php</filename>
+		<filename>views/adminconfig/tmpl/msgsettings.php</filename>
+		<filename>views/adminconfig/tmpl/showcomptype.php</filename>
+		<filename>views/adminconfig/tmpl/showconfig.php</filename>
+		<filename>views/adminconfig/tmpl/showcountry.php</filename>
+		<filename>views/adminconfig/tmpl/showdeglevel.php</filename>
+		<filename>views/adminconfig/tmpl/showindcomp.php</filename>
+		<filename>views/adminconfig/tmpl/showjobcateg.php</filename>
+		<filename>views/adminconfig/tmpl/showjobexp.php</filename>
+		<filename>views/adminconfig/tmpl/showjobspec.php</filename>
+		<filename>views/adminconfig/tmpl/showmajor.php</filename>
+		<filename>views/adminconfig/tmpl/showplan.php</filename>
+		<filename>views/adminconfig/tmpl/showpostype.php</filename>
+		<filename>views/adminconfig/tmpl/showsaltype.php</filename>
+		<filename>views/adminconfig/tmpl/showsalutation.php</filename>
+		<filename>views/adminconfig/tmpl/showtext.php</filename>
+		<filename>views/adminconfig/tmpl/showuniversity.php</filename>
+	
+		<filename>views/adminjob/index.html</filename>
+		<filename>views/adminjob/view.html.php</filename>
+		
+		<filename>views/adminjob/tmpl/index.html</filename>
+		<filename>views/adminjob/tmpl/about.php</filename>
+		<filename>views/adminjob/tmpl/dashboard.php</filename>
+		<filename>views/adminjob/tmpl/editcustomjob.php</filename>
+		<filename>views/adminjob/tmpl/editcustomuser.php</filename>
+		<filename>views/adminjob/tmpl/editemployer.php</filename>
+		<filename>views/adminjob/tmpl/editjob.php</filename>
+		<filename>views/adminjob/tmpl/editjobseeker.php</filename>
+		<filename>views/adminjob/tmpl/editsubscr.php</filename>
+		<filename>views/adminjob/tmpl/publishjob.php</filename>
+		<filename>views/adminjob/tmpl/joblist.php</filename>
+		<filename>views/adminjob/tmpl/showbilling.php</filename>
+		<filename>views/adminjob/tmpl/showcustomjob.php</filename>
+		<filename>views/adminjob/tmpl/showcustomuser.php</filename>
+		<filename>views/adminjob/tmpl/showemployer.php</filename>
+		<filename>views/adminjob/tmpl/showjobseeker.php</filename>
+		<filename>views/adminjob/tmpl/showsubscr.php</filename>
+		
+		<folder>images</folder>
+		<folder>assets</folder>
+	</files>	
+	
+	<languages folder="admin/language/en-GB">
+		<language tag="en-GB">en-GB.com_jbjobs.ini</language>
+	</languages>
+		
+	</administration>
+</install>

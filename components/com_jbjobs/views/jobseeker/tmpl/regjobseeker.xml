@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Jobseeker Profile Page" hidden="true">
+		<message>
+			<![CDATA[Jobseeker Profile Page.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Jobseeker Profile Page</name>
+		<description>Jobseeker Profile Page.</description>
+	</state>
+</metadata>

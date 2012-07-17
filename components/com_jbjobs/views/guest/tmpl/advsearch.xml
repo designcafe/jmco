@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Advance Search Page">
+		<message>
+			<![CDATA[Advance search page for searching jobs.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Advance Search Page</name>
+		<description>Advance search page for searching jobs.</description>
+	</state>
+</metadata>

@@ -1,0 +1,11 @@
+
+.osolCaptchaBlock{
+	width:97%;
+	border:1px solid #dedede; 
+	padding:10px;
+}
+.osolCaptchaBlock label{
+}
+.osolCaptchaBlock table td{
+	text-align:center;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="freemode" type="radio" default="0" label="Use Free Mode" description="If you set to No, All Jobs Package functions will be disabled - and Finance menu will be removed from employer page">
+	 		<option value="1">Yes</option>
+	 		<option value="0">No</option>
+	 	</param>
+		<param name="limittimeforfreemode" type="text" default="7" size="5" label="Limit Time for Free Mode (days)" description="" />
+	  	<param name="currency" type="text" default="$" label="Currency" size="5" description="Currency for transaction" />  
+	  	<param name="currencytype" type="text" default="BND" size="5" label="Currency Type (Eg. USD, BND)" description="Currency for transaction (Eg. USD, BND, SGD, INR)" />  
+	 </params>
+	 
+	<params group="user_profile">
+		<param name="user_profile" type="list" default="0" label="User Profile" description="">
+	 		<option value="0">JoomBah Jobs Default</option>
+	 		<option value="1">Community Builder</option>
+	 		<option value="2">JomSocial</option>
+	 	</param>
+	</params>
+	
+	<params group="indeed_com">
+		
+	    <param type="radio" name="inactive" default="0" label="Enable?" description="If set to Yes, Indeed.com job feed is enabled" >
+		    <option value="1">Yes</option>
+		    <option value="0">No</option>
+	    </param>
+		<param name="inpublisherid"  type="text" default="" label="Publisher ID" description="To create a FREE account and recieve your Publisher ID and access tool visit http://www.indeed.com/jsp/apiinfo.jsp" />
+	  	<param name="inkeywords" type="text" default="" label="Keywords" description="Enter keywords like Java Developer, Network Engineer" />
+	  	<param name="inlocation" type="text" default="" label="Location" description="Enter name of the location/city like Singapore, Delhi, Washington" />
+	  	<param name="incountrycode" type="list" default="US" label="Country" description="Choose the Country of the jobs you would like to display on your page.">
+			<option value="US">United States</option>
+			<option value="AR">Argentina</option>
+			<option value="AU">Australia</option>
+			<option value="AT">Austria</option>
+			<option value="BH">Bahrain</option>
+			<option value="BE">Belgium</option>
+			<option value="BR">Brazil</option>
+			<option value="CA">Canada</option>
+			<option value="CL">Chile</option>
+			<option value="CN">China</option>
+			<option value="CO">Colombia</option>
+			<option value="CZ">Czech Republic</option>
+			<option value="DK">Denmark</option>
+			<option value="FI">Finland</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="GR">Greece</option>
+			<option value="HK">Hong Kong</option>
+			<option value="HU">Hungary</option>
+			<option value="IN">India</option>
+			<option value="ID">Indonesia</option>
+			<option value="IE">Ireland</option>
+			<option value="IL">Israel</option>
+			<option value="IT">Italy</option>
+			<option value="JP">Japan</option>
+			<option value="KR">Korea</option>
+			<option value="KW">Kuwait</option>
+			<option value="LU">Luxembourg</option>
+			<option value="MY">Malaysia</option>
+			<option value="MX">Mexico</option>
+			<option value="NL">Netherlands</option>
+			<option value="NZ">New Zealand</option>
+			<option value="NO">Norway</option>
+			<option value="OM">Oman</option>
+			<option value="PK">Pakistan</option>
+			<option value="PE">Peru</option>
+			<option value="PH">Philippines</option>
+			<option value="PL">Poland</option>
+			<option value="PT">Portugal</option>
+			<option value="QA">Qatar</option>
+			<option value="RO">Romania</option>
+			<option value="RU">Russia</option>
+			<option value="SA">Saudi Arabia</option>
+			<option value="SG">Singapore</option>
+			<option value="ZA">South Africa</option>
+			<option value="ES">Spain</option>
+			<option value="SE">Sweden</option>
+			<option value="CH">Switzerland</option>
+			<option value="TW">Taiwan</option>
+			<option value="TR">Turkey</option>
+			<option value="AE">United Arab Emirates</option>
+			<option value="GB">United Kingdom</option>
+			<option value="VE">Venezuela</option>
+		</param>
+	</params>
+	
+	<params group="jobseeker_photo">
+		<param name="pwidth"  type="text" default="100" label="Photo Width" description="" />  
+	  	<param name="pheight" type="text" default="200" label="Photo Height" description="" />
+	  	<param name="maxsize" type="text" default="100" label="Max xize of photo (in KB) " description="" />  
+	</params>
+	
+	<params group="file">
+	  	<param name="filetype" type="textarea" rows="5" cols="30" default="'application/msword', 'application/pdf', 'application/rtf', 'image/pjpeg', 'image/jpeg', 'image/jpg', 'image/png', 'image/x-png', 'image/gif', 'application/zip', 'application/x-zip-compressed'" label="File type, separated by comma" description="File types accepted for Resumes" />  
+	  	<param name="filetypetext" type="textarea" rows="5" cols="30" default="doc, pdf, rtf, jpeg, jpg, png, gif, zip" label="Notes in upload field" description="File types to be shown to the users in front end" />  
+	</params>
+	
+	<params group="price">
+	  	<param name="price_credit" type="text" default="5" label="Price of 1 Credit" description="" />   
+	</params>
+	
+	<params group="bonus">
+	  	<param name="bonus_signup_emp" type="text" default="10" label="Credit bonus for register as employer" description="" />
+	</params>
+	
+	<params group="payment">
+	  	<param name="paypal_email"  type="text" default="my-paypal@email.com" size="40" label="PayPal account email address" description="" /> 
+	  	<param name="paypal_curr_code"  type="text" default="SGD" size="5" label="PayPal Currency Code (Eg. USD, BND)" description="Enter 3 letter currncy code. This could be different from Currency Type above. Because PayPal only supports only a few Currency Code" /> 
+		<param name="ptestmode" type="list" default="1" label="Test Mode (Need Paypal Sandbox Account)" description="To activate test mode you have to create a sandbox paypal account here : https://developer.paypal.com then type your sandbox email in the Deposit Paypal Email field above">
+	 		<option value="1">Yes</option>
+	 		<option value="0">No</option>
+	 	</param>
+		<param name="bank_account"  type="text" default="My Account Number" label="Bank Account Number for manual payment" description="" />
+		<param name="bank_name"  type="text" default="My Bank Name" size="40" label="Bank Name for manual payment" description=""  />  
+		<param name="bank_account_name"  type="text" default="My Name" size="40" label="Account Holder's Name for manual payment" description=""  />  
+	</params>
+	
+	<params group="paymentnotify">
+		<param name="notify_email" type="text" default="sales@mysite.com" size="40" label="Email address for notification" description="Email ID to which the payment receipt will be sent to in case of manual payment" />
+		<param name="notify_fax" type="text" default="1234567890" label="Fax Number for notification" description="Fax number to which the payment receipt will be faxed to in case of manual payment"  />  
+	</params>
+	
+	<params group="credit">
+	  	<param name="minimum_credit" type="text" default="1" label="Minimum Credit" description="" />   
+	</params>
+	
+	<params group="termarticle">
+	  	<param name="termarticleid" type="text" default="1" label="Article ID for Term of Service page" description="" />
+	</params>
+	
+	<params group="rss">
+	  	<param name="rss_limit" type="text" default="10" label="RSS Limit" description="" />
+	</params>
+
+</config> 

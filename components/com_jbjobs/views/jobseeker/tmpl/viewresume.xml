@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="View Resume" hidden="true">
+		<message>
+			<![CDATA[View Resume.]]>
+		</message>
+	</layout>
+	<state>
+		<name>View Resume</name>
+		<description>View Resume.</description>
+	</state>
+</metadata>

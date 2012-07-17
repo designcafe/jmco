@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>YOOsnapshots</name>
+	<author>YOOtheme</author>
+	<creationDate>September 2007</creationDate>
+	<copyright>Copyright (C) 2007 - 2008 YOOtheme Ltd. &amp; Co. KG</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.5.0</version>
+	<description>YOOsnapshots module of the YOOtheme club (http://www.yootheme.com) for Joomla! 1.5. Adds Snap Shots (http://www.snap.com) to your site.</description>
+	<files>
+		<filename module="mod_yoo_snapshots">mod_yoo_snapshots.php</filename>
+		<filename>mod_yoo_snapshots.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+		<param name="ap" type="radio" default="0" label="Enable Snap Shots" description="Indicates whether Snap Shots are on or off by default. If YES Snap Shots is enabled on all links automatically. Use class snap_noshots to force a specific link to be disabled. If NO Snap Shots is disabled on all links. Use class snap_shots to force a specific link to be enabled">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="snapKey" type="text" size="60" default="" label="Key" description="Snap Shots key">
+		</param>
+		<param name="sb" type="radio" default="0" label="Search Box" description="Show/Hide search box">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="th" type="list" default="silver" label="Background Color" description="Select color theme">
+			<option value="silver">Silver</option>
+			<option value="ice">Ice</option>
+			<option value="green">Green</option>
+			<option value="linen">Linen</option>
+			<option value="orange">Orange</option>
+			<option value="pink">Pink</option>
+			<option value="purple">Purple</option>
+			<option value="asphalt">Asphalt</option>
+		</param>
+		<param name="cl" type="radio" default="0" label="Custom Logo" description="Show/Hide custom logo">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="si" type="radio" default="0" label="Internal Links" description="Enable Snap Shots for internal links">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="po" type="radio" default="0" label="Web Page Previews Only" description="Enable web page previews only. Turns off previews for stock quotes, product info, movie info, video, etc.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="df" type="radio" default="0" label="Delay" description="Delay loading of Snap Shots until after page loads">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="oi" type="radio" default="0" label="Opt-in Badge" description="Indicates whether Snap Shots should be controlled by the Snap Shots Opt-In Badge.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="link_icon" type="radio" default="on" label="Link Icon" description="Show/Hide Snap Shots link icon">
+			<option value="on">Yes</option>
+			<option value="off">No</option>
+		</param>
+		<param name="shots_trigger" type="list" default="both" label="Trigger" description="How to activate a Snap Shot bubble">
+			<option value="both">Link and Icon</option>
+			<option value="icon">Icon only</option>
+		</param>
+		<param name="lang" type="text" size="20" default="en-us" label="Language" description="Indicates the language the Snap Shot will be displayed in. Acceptable values can be found at http://wiki.snap.com/index.php/Translations">
+		</param>
+		<param name="domain" type="text" size="20" default="" label="Domain" description="Domain on which the Snap Shots code is being placed.">
+		</param>
+		<param name="as" type="radio" default="0" label="Engage" description="Enable Snap Shots Engage">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+	</params>
+</install>

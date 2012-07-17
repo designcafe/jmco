@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JoomBah Jobs Home Page">
+		<message>
+			<![CDATA[Home page of JoomBah Jobs which shows the features, benefits of the site and has &quot;Register&quot; buttons for both jobseekers ane employer.]]>
+		</message>
+	</layout>
+	<state>
+		<name>JoomBah Jobs Home Page</name>
+		<description>Home page of JoomBah Jobs which shows the features, benefits of the site and has &quot;Register&quot; buttons for both jobseekers ane employer.</description>
+	</state>
+</metadata>

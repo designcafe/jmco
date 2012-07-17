@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Admin user access (frontend)</name>
+	<author>Carsten Engel</author>
+	<creationDate>febuari 2011</creationDate>
+	<copyright>(C) 2011 Carsten Engel Engelweb. All rights reserved.</copyright>
+	<license>GPL</license>
+	<authorEmail>-</authorEmail>
+	<authorUrl>www.pages-and-items.com</authorUrl>
+	<version>2.1.2</version>
+	<description>This module restricts the editting of content from the frontend (with component Admin-User-Access). Module settings: 'show title' > 'no', 'Enabled' > 'yes', 'Position' > any position which is on each page in your template (like 'left' or 'footer'), 'Menus' > 'All'. If used together with Pages-and-Items, assign this module to the same module-position as the Pages-and-Items module, and make sure this module loads AFTER the Pages-and-Items module.</description>
+	<languages>
+		<language tag="af-ZA">language/af-ZA.mod_admin_user_access_frontend.ini</language>
+		<language tag="ar-EG">language/ar-EG.mod_admin_user_access_frontend.ini</language>
+		<language tag="be-BE">language/be-BE.mod_admin_user_access_frontend.ini</language>
+		<language tag="bg-BG">language/bg-BG.mod_admin_user_access_frontend.ini</language>
+		<language tag="ca-ES">language/ca-ES.mod_admin_user_access_frontend.ini</language>
+		<language tag="cs-CZ">language/cs-CZ.mod_admin_user_access_frontend.ini</language>
+		<language tag="cy-GB">language/cy-GB.mod_admin_user_access_frontend.ini</language>
+		<language tag="da-DK">language/da-DK.mod_admin_user_access_frontend.ini</language>
+		<language tag="de-DE">language/de-DE.mod_admin_user_access_frontend.ini</language>
+		<language tag="el-GR">language/el-GR.mod_admin_user_access_frontend.ini</language>
+		<language tag="en-GB">language/en-GB.mod_admin_user_access_frontend.ini</language>
+		<language tag="es-ES">language/es-ES.mod_admin_user_access_frontend.ini</language>
+		<language tag="et-EE">language/et-EE.mod_admin_user_access_frontend.ini</language>
+		<language tag="fa-IR">language/fa-IR.mod_admin_user_access_frontend.ini</language>
+		<language tag="fi-FI">language/fi-FI.mod_admin_user_access_frontend.ini</language>
+		<language tag="fr-FR">language/fr-FR.mod_admin_user_access_frontend.ini</language>
+		<language tag="ga-IE">language/ga-IE.mod_admin_user_access_frontend.ini</language>
+		<language tag="gl-ES">language/gl-ES.mod_admin_user_access_frontend.ini</language>
+		<language tag="he-IL">language/he-IL.mod_admin_user_access_frontend.ini</language>
+		<language tag="hi-IN">language/hi-IN.mod_admin_user_access_frontend.ini</language>
+		<language tag="hr-HR">language/hr-HR.mod_admin_user_access_frontend.ini</language>
+		<language tag="ht-NG">language/ht-NG.mod_admin_user_access_frontend.ini</language>
+		<language tag="hu-HU">language/hu-HU.mod_admin_user_access_frontend.ini</language>
+		<language tag="id-ID">language/id-ID.mod_admin_user_access_frontend.ini</language>
+		<language tag="is-IS">language/is-IS.mod_admin_user_access_frontend.ini</language>
+		<language tag="it-IT">language/it-IT.mod_admin_user_access_frontend.ini</language>
+		<language tag="ja-JP">language/ja-JP.mod_admin_user_access_frontend.ini</language>
+		<language tag="ko-KR">language/ko-KR.mod_admin_user_access_frontend.ini</language>
+		<language tag="lt-LT">language/lt-LT.mod_admin_user_access_frontend.ini</language>
+		<language tag="lv-LV">language/lv-LV.mod_admin_user_access_frontend.ini</language>
+		<language tag="mk-MK">language/mk-MK.mod_admin_user_access_frontend.ini</language>
+		<language tag="ms-MY">language/ms-MY.mod_admin_user_access_frontend.ini</language>
+		<language tag="mt-MT">language/mt-MT.mod_admin_user_access_frontend.ini</language>
+		<language tag="nl-NL">language/nl-NL.mod_admin_user_access_frontend.ini</language>
+		<language tag="no-NO">language/no-NO.mod_admin_user_access_frontend.ini</language>
+		<language tag="pl-PL">language/pl-PL.mod_admin_user_access_frontend.ini</language>
+		<language tag="pt-PT">language/pt-PT.mod_admin_user_access_frontend.ini</language>
+		<language tag="ro-RO">language/ro-RO.mod_admin_user_access_frontend.ini</language>
+		<language tag="ru-RU">language/ru-RU.mod_admin_user_access_frontend.ini</language>
+		<language tag="sk-SK">language/sk-SK.mod_admin_user_access_frontend.ini</language>
+		<language tag="sl-SI">language/sl-SI.mod_admin_user_access_frontend.ini</language>
+		<language tag="sq-AL">language/sq-AL.mod_admin_user_access_frontend.ini</language>
+		<language tag="sr-RS">language/sr-RS.mod_admin_user_access_frontend.ini</language>
+		<language tag="sv-SV">language/sv-SV.mod_admin_user_access_frontend.ini</language>
+		<language tag="sw-TZ">language/sw-TZ.mod_admin_user_access_frontend.ini</language>
+		<language tag="th-TH">language/th-TH.mod_admin_user_access_frontend.ini</language>
+		<language tag="tl-PH">language/tl-PH.mod_admin_user_access_frontend.ini</language>
+		<language tag="tr-TR">language/tr-TR.mod_admin_user_access_frontend.ini</language>
+		<language tag="uk-UA">language/uk-UA.mod_admin_user_access_frontend.ini</language>
+		<language tag="vi-VN">language/vi-VN.mod_admin_user_access_frontend.ini</language>
+		<language tag="yi-IL">language/yi-IL.mod_admin_user_access_frontend.ini</language>
+		<language tag="zh-CN">language/zh-CN.mod_admin_user_access_frontend.ini</language>
+		<language tag="zh-TW">language/zh-TW.mod_admin_user_access_frontend.ini</language>
+	</languages>
+	<files>
+		<folder>admin_user_access_language/</folder>
+		<filename module="mod_admin_user_access_frontend">mod_admin_user_access_frontend.php</filename>
+		<filename>mod_admin_user_access_frontend2.php</filename>
+	</files>	
+</install>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>JoomBah Statistics</name>
+	<creationDate>05 November 2010</creationDate>
+	<author>Zaki Razak</author>
+	<copyright>Copyright (C) 2010 JoomBah.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joombah.com</authorEmail>
+	<authorUrl>www.joombah.com</authorUrl>
+	<version>1.0.0</version>
+	<description>This module shows the current job statistics
+	</description>
+	<files>
+		<filename module="mod_jbjobsstats">mod_jbjobsstats.php</filename>
+		<filename>index.html</filename>
+	    <filename>helper.php</filename>	
+	    <filename>tmpl/default.php</filename>
+	    <filename>tmpl/index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jbjobsstats.ini</language>
+	</languages>
+	
+	<params>	
+	<param name="total_jobs" type="radio" default="0" label="Total Jobs" description="">
+		<option value="1">Show</option>
+		<option value="0">Hide</option>
+	</param>
+	<param name="active_jobs" type="radio" default="1" label="Total Active Jobs" description="">
+		<option value="1">Show</option>
+		<option value="0">Hide</option>
+	</param>
+	<param name="total_jobseekers" type="radio" default="1" label="Total Jobseekers" description="">
+		<option value="1">Show</option>
+		<option value="0">Hide</option>
+	</param>
+	<param name="total_employers" type="radio" default="1" label="Total Employers" description="">
+		<option value="1">Show</option>
+		<option value="0">Hide</option>
+	</param>
+
+	</params>
+</install>

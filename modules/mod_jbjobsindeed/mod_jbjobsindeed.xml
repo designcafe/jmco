@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Indeed.com Jobs for JoomBah</name>
+	<creationDate>23 October 2010</creationDate>
+	<author>Zaki Razak</author>
+	<copyright>Copyright (C) 2010 JoomBah.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joombah.com</authorEmail>
+	<authorUrl>www.joombah.com</authorUrl>
+	<version>1.0.1</version>
+	<description>This module shows the list of latest jobs from Indeed.com. Remember to set your indeed.com publisher id, keyword and location in the JoomBah Jobs component configuration.</description>
+	
+	<files>
+		<filename module="mod_jbjobsindeed">mod_jbjobsindeed.php</filename>
+		 <filename>helper.php</filename>
+		<filename>css/style.css</filename>
+		<filename>css/index.html</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jbjobsindeed.ini</language>
+	</languages>
+	
+	<params>
+		<param name="total_row" type="text" size="5" default="5" label="Total row" description="Total number of rows to be displayed on the front end" />
+	</params>
+
+</install>

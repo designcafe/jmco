@@ -1,0 +1,148 @@
+Michael Labieniec
+
+11 Red Yellow Road
+Middletown, CT 06457
+860.841.9114	
+michaellabieniec@gmail.com
+http://www.greenarrowpro.com
+http://www.coderedhead.com
+http://www.michaellabieniec.com
+
+-------------------------------------------------------
+Experience
+-------------------------------------------------------
+
+Sr. Flex Engineer, Universal Mind / T-Mobile USA
+Richmond VA, 2009 - Present
+I am currently working as a contractor with Universal Mind on site at T-Mobile USA. We are refactoring and developing an enterprise customer care software used by customer care representatives.
+
+Skills: Flex / AS3, Eclipse, Maven, Java, Adobe LiveCycle
+-------------------------------------------------------
+
+Founder / Principal, Green Arrow Interactive
+Hartford, CT. 2007 - 2009
+I created Green Arrow Interactive, along with Stephen D Malloy, to push the boundaries and drive for the next generation of interactive experiences that draw on my over 10 years of experience in, Web development, graphic design, interactive education, streaming video applications, 3-D animation and design for Fortune 100 companies.
+
+Skills: Flex / AS3, Eclipse, Maven, Java, Adobe LiveCycle
+-------------------------------------------------------
+
+New Media Director, Pita Communications / Vrroomedia
+Hartford, CT. 2004 - 2006
+In mid 2007 Vrroomedia was acquired by Pita Communications. My role grew to manage a small team, including a PHP / Java programmer, and a Flash Designer / 3D modeler / Animator. Art direction and video production was a key responsibility as well as utilization of 3D modeling and animation.
+
+Skills: Adobe Flash CS3, Adobe Creative Suite 3, Cinema 4D Actionscript 3.0, Flex 2 / 3.0, PHP, Java, Adobe Media Server, Red5 Media Server, Blaze DS, MySql, Objective-C
+-------------------------------------------------------
+
+Director of Web Development and Design, Vrroomedia 
+Hartford, CT. 2002-2004
+Responsible for Direction and execution of web 2.0 applications and websites. Utilization of Flash video streaming was a main focus. All streaming video was housed on external Flash Media servers. My responsibilities also included management and direction of outside contractors and freelancers.
+
+Skills: Macromedia Flash, Actionscript 2.0, Adobe Creative Suite, Cinema 4D, Adobe Media Server,  Coldfusion MX, MySql, PHP, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, Apple Final Cut Pro
+-------------------------------------------------------
+
+e-Learning Specialist, The Hartford 
+Hartford, CT. 2000-2002
+Design and Development of e-Learning courses for corporate education. Courses were all developed for internal employee education, and developed in Coldfusion MX, Microsoft SQL, and Adobe Flash. Some utilization of Flash video.
+
+Skills: Macromedia Flash, HTML, Coldfusion MX, CSS, Macromedi Dreamweaver, Adobe After Effects, Microsoft SQL
+-------------------------------------------------------
+
+Sr. Flash / Flex Developer / Designer, Netkey ( Acquired by NCR in 2009 )
+West Haven CT. 2000 - present
+Netkey is the premiere provider of enterprise kiosk software. My role included design, creation, and some creative direction in the creation of animations and Flash applications for kiosks. Clients include Toys ‘r’ us, Nationwide Insurance, Chillies, Cabelas, Pfizer and more. All animation was done for large resolution displays and mostly offline viewing.
+Skills: Macromedia / Adobe Flash, Flex, Actionscript 2 / 3, PHP, MySql, Java, Javascript, Adobe Photoshop, Adobe Illustrator
+
+-------------------------------------------------------
+Education
+-------------------------------------------------------
+
+Farmington High School, Farmington CT. — High School Diploma, 1996
+Naugatuck Comm / Tech. College, Waterbury CT. — Multimedia Certificate, 1998-1999
+Tunxis Comm / Tech. College, Farmington CT. — Computer Science Associates, 2000-2002
+Lynda.com, All Flash / Flex / Actionscript 2.0, 3.0 / Cinema 4D video courses ( 2003 - present )
+
+-------------------------------------------------------
+Languages
+-------------------------------------------------------
+
+Actionscript 2.0 / 3.0 ( Flex ) *OOP 	-- Expert
+HTML / CSS 				-- Expert
+Java 					-– Intermediate 
+Javascript 				-- Intermediate
+PHP / SQL 				-- Intermediate / Expert
+C / C ++ / Objective-C 			-- Intermediate
+Software:
+Flash 					-- Expert
+Flash Media Server / Red5 		-- Expert
+Flex 					-- Expert
+Photoshop / Illustrator 		-- Expert
+Final Cut Pro 				-- Expert
+After Effects 				-- Expert
+Cinema 4d 				-- Intermediate / Expert
+Unity 3D 				-- Intermediate
+Operating Systems:	
+Unix ( currently use ) 			-- Expert
+Mac OS X ( currently use ) 		-- Expert
+Windows 				-- Expert
+Business:
+Team Management / Creative Direction 	-- Expert
+Project Management 			-- Expert
+New Business Development 		-- Intermediate
+
+-------------------------------------------------------
+References
+-------------------------------------------------------
+
+Rick Stahr,
+e-Learning Manager, The Hartford 
+(860) 547-5000
+
+Amber Lee, 
+UI Manager, Netkey / NCR
+(203) 907-0227 ext. 130
+
+Doug Rubenstein, 
+Principal, Vrroomedia 
+CEO, Douglas Associates
+123.456.789
+
+Jim Morrissey       
+CEO JMorrissey, 
+(860) 925-6000
+
+Matthew Thornton
+PMP, Universal Mind
+matt.thornton@universalmind.com
+
+-------------------------------------------------------
+URLs
+-------------------------------------------------------
+
+Pita Communications
+Flex, Flash, PHP, AMFPHP, FMS, Cinema 4D, Javascript, CSS, HTML
+http://www.pitacomm.com
+
+Vrroomedia, A Pita Communications Company
+Flex, Flash, Coldfusion, FMS, Javascript, CSS, HTML
+http://www.vrroomedia.com
+
+Barnes Group inc.,
+Flex, Flash, PHP, FMS, Javascript, CSS, HTML
+http://www.barnesgroupbenefits.com/
+http://www.barnes.greenarrowpro.com/share
+
+United Technologies Corp., Virtual Diversity Symposium
+Flex, Flash, PHP, AMFPHP, FMS, Javascript, CSS, HTML
+http://www.drivingdiversityatutc.com
+
+Univers Benefits Enrollment, VLMS Application ( Internal )
+Flex, Flash, Coldfusion, AMFPHP, FMS, Cinema 4D, Javascript, CSS, HTML
+http://staging.vrroomedia.com/Univers/lms
+
+J Morrissey
+Flash, Coldfusion, After Effects, FMS, Javascript, CSS, HTML
+http:/jmorrissey.com
+
+Rapstix website / custom web-to-print solution
+Flex / MySql / PHP / Paypal 
+http://rapstix.com/design.php?pid=15

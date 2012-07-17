@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Mobile Joomla!</name>
+	<version>0.9.8</version>
+	<author>Mobile Joomla!</author>
+	<copyright>(C) 2008-2010 MobileJoomla!</copyright>
+	<creationDate>September 2010</creationDate>
+	<authorEmail>hello@mobilejoomla.com</authorEmail>
+	<authorUrl>http://www.mobilejoomla.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.htm GNU/GPL</license>
+	<description></description>
+	<files>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_mobile_iphone.ini</language>
+		<language tag="en-GB">en-GB.tpl_mobile_pda.ini</language>
+	</languages>
+	<administration>
+		<menu img="../administrator/components/com_mobilejoomla/images/mj16x16.gif">Mobile Joomla!</menu>
+		<submenu>
+			<menu task="settings" img="js/ThemeOffice/config.png">Settings</menu>
+			<menu task="extensions">Extensions</menu>
+			<menu task="about" img="js/ThemeOffice/info.png">About</menu>
+		</submenu>
+		<languages>
+			<language tag="en-GB">en-GB.com_mobilejoomla.ini</language>
+			<language tag="en-GB">en-GB.com_mobilejoomla.menu.ini</language>
+			<language tag="en-GB">en-GB.plg_mobile_terawurfl.ini</language>
+			<language tag="en-GB">en-GB.plg_mobile_always.ini</language>
+		</languages>
+		<files>
+			<filename>admin.mobilejoomla.html.php</filename>
+			<filename>admin.mobilejoomla.php</filename>
+			<filename>CHANGELOG.php</filename>
+			<filename>defconfig.php</filename>
+			<filename>imagerescaler.class.php</filename>
+			<filename>index.html</filename>
+			<filename>LICENSE.PHP</filename>
+			<filename>mobilejoomla.class.php</filename>
+			<filename>toolbar.mobilejoomla.html.php</filename>
+			<filename>toolbar.mobilejoomla.php</filename>
+			<filename>uninstall.mobilejoomla.php</filename>
+			<folder>cachestorage</folder>
+			<folder>extensions</folder>
+			<folder>images</folder>
+			<folder>markup</folder>
+			<folder>modules</folder>
+			<folder>plugins</folder>
+			<folder>templates</folder>
+		</files>
+	</administration>
+	<installfile>uninstall.mobilejoomla.php</installfile>
+	<uninstallfile>uninstall.mobilejoomla.php</uninstallfile>
+</install>

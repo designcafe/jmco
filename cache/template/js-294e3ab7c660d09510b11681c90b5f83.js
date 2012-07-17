@@ -1,0 +1,1 @@
+window.addEvent('domready',function(){setckLdrs('applsubmt');});function setckLdrs(id){$(id).addEvent('click',function(e){e.preventDefault();this.disabled=1;this.form.submit();$('loadr').removeClass('hidel');this.setStyles({'background':'#ccc','color':'#ccc','border-color':'#ddd'});});}

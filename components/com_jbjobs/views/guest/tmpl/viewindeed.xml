@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Indeed.com Job Page">
+		<message>
+			<![CDATA[This page shows the jobs from the Indeed.com.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Indeed.com Job Page</name>
+		<description>This page shows the jobs from the Indeed.com.</description>
+	</state>
+</metadata>

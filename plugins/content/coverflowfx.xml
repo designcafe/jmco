@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="plugin" group="content" version="1.5.0">
+	<name>Content - Cover Flow FX</name>
+	<creationDate>16 December 2010</creationDate>	
+	<author>FlashXML.net</author>
+	<copyright>Copyright (C) 2010 FlashXML.net</copyright>
+	<license>GNU/GPLv2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>support@flashxml.net</authorEmail>	
+	<authorUrl>http://www.flashxml.net/</authorUrl>
+	<version>0.0.6</version>
+	<description>The Cover Flow FX can be embedded in any website for free without even using Flash and it can have an overall width and height up to 1680 x 1050 pixels. I uses the Papervision3D engine and has multiple plane and camera views. It supports all types of images (JPG, GIF, BMP, PNG) which can have different sizes - they will be automatically adjusted to fit in the same height. It has an auto play function with external PNGs (customizable) for play/pause buttons. Optional scroll bar with multiple skins to choose from. Extensive configurations for tooltip and reflection.</description>
+	<files>
+		<filename plugin="coverflowfx">coverflowfx.php</filename>
+	</files>
+	<params>
+		<param name="coverflowfx_path" type="text" size="40" default="/flashxml/coverflowfx/" label="Path" description="Path of the Flash component and its assets" />
+	</params>
+</install>

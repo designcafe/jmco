@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Jobseeker Edit Cover Letter" hidden="true">
+		<message>
+			<![CDATA[Jobseeker Edit Resume.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Jobseeker Edit Resume</name>
+		<description>Jobseeker Edit Resume.</description>
+	</state>
+</metadata>

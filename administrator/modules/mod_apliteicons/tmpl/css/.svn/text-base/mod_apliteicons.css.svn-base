@@ -1,0 +1,141 @@
+/* General Icon CSS */
+#ap-status .aplite-icons span{
+padding:0;
+}
+.aplite-icons div.icon {
+width:auto;
+height:28px;
+margin:4px;
+text-align:center;
+font-size:9px;
+float:left;
+white-space:nowrap;
+padding:0 2px;
+}
+.aplite-icons a {
+display:block;
+padding:16px 0 0 0;
+background-repeat:no-repeat;
+background-position:50% 0px !important;
+}
+.aplite-icons a:hover {
+background-position:50% 0px !important;
+}
+
+/* Icons */
+.newarticle a,.article a {
+background:url('../images/page_add.png') no-repeat 0 0;
+}
+.menu a {
+background:url('../images/application_view_list.png') no-repeat 0 0;
+}
+.messages a {
+background:url('../images/email_open.png') no-repeat 0 0;
+}
+.sessioncount a {
+background:url('../images/group_key.png') no-repeat 0 0;
+}
+.user a {
+background:url('../images/user.png') no-repeat 0 0;
+}
+.newuser a {
+background:url('../images/user_add.png') no-repeat 0 0;
+}
+.trash a,.articletrash a,.menutrash a {
+background:url('../images/lorry.png') no-repeat 0 0;
+}
+.componentmanager a,.components a {
+background:url('../images/plugin.png') no-repeat 0 0;
+}
+.modulemanager a,.sitemodules a,.modules a,.adminmodules a,.publishedmodules a {
+background:url('../images/bricks.png') no-repeat 0 0;
+}
+.newmodule a,.newadminmodule a {
+background:url('../images/brick_add.png') no-repeat 0 0;
+}
+.pluginmanager a,.plugins a {
+background:url('../images/disconnect.png') no-repeat 0 0;
+}
+.templatemanager a,.templates a,.admintemplates a {
+background:url('../images/color_wheel.png') no-repeat 0 0;
+}
+.installer a {
+background:url('../images/package_add.png') no-repeat 0 0;
+}
+.sectionmanager a,.sections a,.newsection a,.section a {
+background:url('../images/folder_table.png') no-repeat 0 0;
+}
+.categorymanager a,.categories a,.newcategory a,.category a {
+background:url('../images/folder_page.png') no-repeat 0 0;
+}
+.articlemanager a,.articles a {
+background:url('../images/page.png') no-repeat 0 0;
+}
+.frontpagemanager a,.frontPage a,.frontpage a {
+background:url('../images/application_home.png') no-repeat 0 0;
+}
+.menus a,.menumanager a {
+background:url('../images/application_cascade.png') no-repeat 0 0;
+}
+.usermanager a,.users a {
+background:url('../images/group.png') no-repeat 0 0;
+}
+.mediamanager a,.media a {
+background:url('../images/film.png') no-repeat 0 0;
+}
+.languageManager a,.languages a {
+background:url('../images/flag_yellow.png') no-repeat 0 0;
+}
+.general a {
+background:url('../images/general.png') no-repeat 0 0;
+}
+
+.home a {
+background-image:url('../images/house.png');
+}
+.yourprofile a {
+background-image:url('../images/vcard.png');
+}
+.adminparams a {
+background-image:url('../images/wrench_orange.png');
+}
+.sysinfo a {
+background-image:url('../images/information.png');
+}
+.setstart a {
+background-image:url('../images/door_in.png');
+}
+.filemanager a,.files a,.fileexplorer a {
+background-image:url('../images/folder_explore.png');
+}
+.newarticle a {
+background-image:url('../images/book_edit.png');
+}
+.preview a {
+background-image:url('../images/zoom.png');
+}
+.version a {
+background-image:url('../images/joomla.png');
+}
+.fullscreen a {
+background-image:url('../images/arrow_out.png');
+}
+.logout a {
+background-image:url('../images/cross.png');
+}
+.checkin a {
+background-image:url('../images/tick.png');
+}
+.debug a {
+background-image:url('../images/bug.png');
+}
+.nodebug a {
+background-image:url('../images/nodebug.png');
+}
+.positions a {
+background-image:url('../images/application_form_magnify.png');
+}
+.general a {
+background-image:url('../images/application.png');
+}
+

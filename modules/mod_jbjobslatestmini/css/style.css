@@ -1,0 +1,29 @@
+.jbj_tbl .jbj_row:hover { 
+	background-color: #EDF6F9 ;
+}
+.mini td{
+	padding: 0px 0px 0px 15px;
+}
+td.jbj_jobtitlemini {
+	background: url(../images/shortArr.gif) no-repeat 0% 2px; 
+}
+td.jbj_featured {
+	background: url(../images/fj.png) no-repeat 0% 2px ; 
+}
+td.locpad {
+	padding-bottom:11px;
+}
+.mini td a.jbj_jobtitlemini, a.jbj_jobtitlemini,  a.jbj_jobtitlemini {
+	color: #0F5585; text-decoration: none;
+}
+a.jbj_bold {
+	font-weight:bold;
+}
+.mini td a:hover {
+ 	color: #ff0000;
+	text-decoration:none;
+}
+.imgstyle {
+	display:inline-block;
+	vertical-align:middle
+}

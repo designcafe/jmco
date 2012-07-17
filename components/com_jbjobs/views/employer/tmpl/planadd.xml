@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Buy Subscription" hidden="false">
+		<message>
+			<![CDATA[Shows the list of membership plans from which employers can choose to buy.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Buy Subscription</name>
+		<description>Shows the list of membership plans from which employers can choose to buy.</description>
+	</state>
+</metadata>

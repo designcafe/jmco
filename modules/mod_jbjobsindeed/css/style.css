@@ -1,0 +1,43 @@
+.jbj_tbl .sectiontableheader td{
+	font-size:120%;
+	font-weight:400;
+	background: #1D86CE;
+	color: #ffffff;
+	height: 30px;
+	padding-left: 10px;
+	}
+.jbj_row0 td {
+	border-bottom:1px solid #ccc;
+	padding:5px 10px;}
+.jbj_row1 td {
+	border-bottom:1px solid #ccc;
+	padding:5px 10px;
+	background:#f0f0f0;}
+	
+.jbj_tbl .jbj_row1:hover td,
+.jbj_tbl .jbj_row0:hover td  { background-color: #EDF6F9 ; }
+
+.jbj_title {
+	font-size:120%;}
+.jbj_location {
+	font-size:110%;
+	font-weight:400;}
+.jbj_date {
+	font-size:175%;
+	font-weight:700;
+	line-height:normal;
+	text-align:center;
+}
+.jbj_month {
+	font-size:110%;
+	display:block;
+	text-align:center;
+	margin-top:-5px;
+}
+.jbj_imglatest {
+	border:1px solid #666666;
+	width:50px;
+	height:50px;}
+.jbj_compname {
+	font-size:90%;
+	padding-top:5px;}

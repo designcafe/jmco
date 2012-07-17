@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" method="upgrade" version="1.5">
+	<name>JobBoard</name>
+	<version>1.5.0f</version>
+	<author>www.tandolin.co.za</author>
+	<copyright>Tandolin, 2010</copyright>
+	<license>GPLv2 or later</license>
+	<authorEmail>info-gp@tandolin.co.za</authorEmail>
+	<creationDate>Jan 2011</creationDate>
+	<description>
+		<![CDATA[
+			<p><b>JobBoard</b></p>
+			
+			<p>Version 1.5.0f</p>
+    <p>For this application to work properly, please ensure that you have configured the following settings:</p>
+    <ul>
+        <li>Administrator email address</li>
+        <li>Return email address</li>
+    </ul>
+    <p>You can configure these values by clicking on the "JobBoard" icon in the components menu. Then click on "Settings" to change the default values.</p>
+		]]>
+	</description>
+	<administration>
+		<menu img="components/com_jobboard/images/jb_main.png" link="option=com_jobboard">JOB_BOARD</menu>
+		<submenu>
+			<menu img="components/com_jobboard/images/icn16_dashboard.png" link="option=com_jobboard">M_DASHBOARD</menu>
+			<menu img="components/com_jobboard/images/icn16_jobs.png" link="option=com_jobboard&amp;view=jobs">M_JOBS</menu>
+			<menu img="components/com_jobboard/images/icn16_applicants.png" link="option=com_jobboard&amp;view=applicants">JOB_APPLICANTS</menu>
+			<menu img="components/com_jobboard/images/icn16_emails.png" link="option=com_jobboard&amp;view=messages">EMAIL_TEMPLATES</menu>
+			<menu img="components/com_jobboard/images/icn16_categories.png" link="option=com_jobboard&amp;view=category">JOB_CATEGORIES</menu>
+			<menu img="components/com_jobboard/images/icn16_careers.png" link="option=com_jobboard&amp;view=careerlevels">CAREER_LEVELS</menu>
+			<menu img="components/com_jobboard/images/icn16_education.png" link="option=com_jobboard&amp;view=education">EDUCATION_LEVELS</menu>
+			<menu img="components/com_jobboard/images/icn16_departments.png" link="option=com_jobboard&amp;view=departments">DEPARTMENTS</menu>
+			<menu img="components/com_jobboard/images/icn16_statuses.png" link="option=com_jobboard&amp;view=statuses">STATUSES</menu>
+			<menu img="components/com_jobboard/images/icn16_settings.png" link="option=com_jobboard&amp;view=config">SETTINGS</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>cv</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>jobboard.php</filename>
+			<filename>install.jobboard.sql</filename>
+			<filename>uninstall.jobboard.sql</filename>
+			<filename>index.htm</filename>
+		</files>
+      	<languages>
+      		<language tag="en-GB">admin/lang/en-GB.com_jobboard.ini</language>
+      		<language tag="en-GB">admin/lang/en-GB.com_jobboard.menu.ini</language>
+      	</languages>
+	</administration>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.jobboard.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.jobboard.sql</file>
+		</sql>
+	</uninstall>
+
+	<installfile>install.jobboard.php</installfile>
+	
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>css</folder>        
+		<folder>images</folder> 
+		<folder>js</folder>               
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>jobboard.php</filename>
+		<filename>router.php</filename>
+		<filename>index.htm</filename>
+	</files>
+    <languages>
+  		<language tag="en-GB">site/lang/en-GB.com_jobboard.ini</language>
+  	</languages>
+</install>
+		
